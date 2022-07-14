@@ -1,3 +1,5 @@
+module Sort.BubbleSort where
+
 -- バブルソート
 -- 一番大きい数値から順に、添え字の老い方へ移動する。
 bubblesort :: Ord a => [a] -> [a]

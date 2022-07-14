@@ -1,3 +1,5 @@
+module Sort.SelectionSort where
+
 -- 選択ソート
 import Data.List (delete)
 

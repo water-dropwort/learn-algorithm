@@ -1,3 +1,5 @@
+module Sort.MergeSort where
+
 -- マージソート
 
 mergesort :: Ord a => [a] -> [a]

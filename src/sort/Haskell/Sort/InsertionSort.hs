@@ -1,6 +1,7 @@
+module Sort.InsertionSort where
+
 -- 挿入ソート
 import Data.List (insert)
 
 insertionsort :: Ord a => [a] -> [a]
-insertionsort [] = []
-insertionsort xs = foldl (flip insert) [] xs
+insertionsort xs = foldr insert [] xs
